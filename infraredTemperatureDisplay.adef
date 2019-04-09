@@ -1,0 +1,17 @@
+executables:
+{
+    infraredTemperatureDisplayd = ( infraredTemperatureDisplayComponent )
+}
+
+processes:
+{
+    run:
+    {
+        ( infraredTemperatureDisplayd )
+    }
+}
+
+bindings:
+{
+    infraredTemperatureDisplayd.infraredTemperatureDisplayComponent.ma_infraredTemperature -> infraredTemperature.ma_infraredTemperature
+}

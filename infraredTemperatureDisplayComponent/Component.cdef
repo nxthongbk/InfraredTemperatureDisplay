@@ -1,0 +1,12 @@
+requires:
+{
+    api:
+    {
+        ma_infraredTemperature.api
+    }
+}
+
+sources:
+{
+    infraredTemperatureDisplay.c
+}
